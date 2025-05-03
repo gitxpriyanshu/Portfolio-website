@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priyanshu Verma</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="images/Icon.png" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <div class="brand">
+            <img src="images/avaturn_screenshot__1_-removebg-preview.png" class="avatar" />
+            <img src="images/PK-logo-img-removebg-preview.png" class="logo" />
+          </div>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <div class="menu-toggle">
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </div>
+        </nav>
+        <div class="header-text">
+          <p>Software Developer</p>
+          <h1>Hi, I'm <span>Priyanshu Verma</span><br />From Pune, India</h1>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------about--------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/WhatsApp Image 2025-04-06 at 12.56.26.jpeg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hostel Coordinator & Sports Club President at Newton School of
+              Technology with strong leadership, teamwork, and problem-solving
+              skills. Passionate Web Developer skilled in Python, CSS,
+              JavaScript, React.js, and HTML, with a solid foundation in DSA.
+              Focused on building interactive, user-friendly applications while
+              continuously learning and improving.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web Development</span><br />HTML, CSS, JavaScript, React.js</li>
+                <li><span>Programming</span><br />Python (Core + DSA), JavaScript</li>
+                <li><span>DSA</span><br />Strong foundation in Lists, Recursion, Sorting, Binary Search, etc.</li>
+                <li><span>Version Control</span><br />Git & GitHub</li>
+                <li><span>Soft Skills</span><br />Leadership, Teamwork, Public Speaking</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2024 - Present</span><br />President of Sports Club, Newton School of Technology</li>
+                <li><span>2024 - Present</span><br />Hostel Floor Coordinator</li>
+                <li><span>2024 - Present</span><br />Member, Entrepreneurship Cell (E-Cell)</li>
+                <li><span>2024 - Present</span><br />Building personal projects like YouTube Creator Hub & Pong Game</li>
+              </ul>
+              
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2024 - 2028</span><br />B.Tech in Computer Science, Newton School of Technology, Pune</li>
+                <li><span>2023</span><br />Class 12th, Noble Public School, Meerut (CBSE)</li>
+                <li><span>2021</span><br />Class 10th, Noble Public School, Meerut (CBSE)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------services--------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Frontend Web Development</h2>
+            <p>
+              I build responsive and user-friendly websites using HTML, CSS, JavaScript, and React.js. My focus is on performance, design, and accessibility.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-python"></i>
+            <h2>DSA & Problem Solving</h2>
+            <p>
+              Strong command over Data Structures and Algorithms using Python. I solve problems daily and prepare for coding contests like ICPC and GSoC.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Open Source Contributions</h2>
+            <p>
+              Gearing up for Google Summer of Code (GSoC) by learning to contribute to open-source projects, collaborate on GitHub, and build impactful solutions.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-hat-cowboy"></i>
+            <h2>Learning Ethical Hacking</h2>
+            <p>
+              Currently exploring the basics of cybersecurity and ethical hacking to understand system vulnerabilities and build secure applications.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>       
+    </div>
+    <!-- ------------------Portfolio--------------- -->
+     <div id="projects">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Youtube-img.jpeg" />
+            <div class="layer">
+            <h3>Youtube-Creator-Hub</h3>
+            <p>
+              YouTube Creator Hub is your go-to platform to learn, create, connect, and grow on YouTube—built by creators, for creators.
+            </p>
+            <a href="https://youtube-creator-hub.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+          </div>
+          <div class="work">
+            <img src="images/Pong-img4.jpeg" />
+            <div class="layer">
+            <h3>Pong-Game</h3>
+            <p>
+              Pong Game <br> A fast-paced, classic paddle game. Simple, fun, and addictive!
+            </p>
+            <a href="https://ponggame-sigma.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+          </div>
+          <!-- <div class="work">
+            <img src="images/WhatsApp Image 2025-04-06 at 12.56.58.jpeg" />
+            <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+              cumque, voluptatibus, accusantium, doloremque.
+            </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+          </div> -->
+          
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+     </div>
+    <!-- ------------------Contact--------------- -->
+     <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <a href="mailto:work.priyanshuverma.1310@gmail.com"><i class="fa-solid fa-envelope"></i></a>work.priyanshuverma.1310@gmail.com</p>
+            <p> <a href="tel:+919368308670"><i class="fa-solid fa-phone"></i></a>+91 9368308670</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100017282109583"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/priyanshu.verma_1310/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://x.com/PriyanshuKV1310"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/priyanshuverma-1310-kv/"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://github.com/gitxpriyanshu"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="images/Resume-Priyanshu verma (7).pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <h1 class="sub-title">Send a Message</h1>
+            <form id="contact-form">
+              <input type="text" name="Name" placeholder="Your Name" required/>
+              <input type="email" name="Email" placeholder="Your Email" required/>
+              <input type="number" name="Phone" placeholder="Contact Number" required/>
+              <input type="text" name="Subject" placeholder="Subject" required/>
+              <textarea rows="6" name="Message" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Send</button>
+            </form>
+            <div id="form-status"></div>
+          </div>
+      
+        </div>
+      </div>
+      <div class="copyright">
+        <p><i class="fa-solid fa-biohazard"></i></p>
+        <p>Copyright © 2025 Priyanshu Verma. All rights reserved.</p>
+        <p>Designed by Priyanshu Verma</p>
+      </div>
+     </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu() {
+    sidemenu.style.right = "0";
+  }
+
+  function closemenu() {
+    sidemenu.style.right = "-200px";
+  }
+</script>
+    <script src="https://kit.fontawesome.com/fea4f2292a.js" crossorigin="anonymous"></script>
+    <script>
+document.getElementById('contact-form').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const form = e.target;
+  const data = {
+    data: {
+      Name: form.Name.value,
+      Email: form.Email.value,
+      Contact: form.Phone.value,
+      Subject: form.Subject.value,
+      Message: form.Message.value
+    }
+  };
+  // Replace with your real SheetDB endpoint!
+  const SHEETDB_ENDPOINT = 'https://sheetdb.io/api/v1/xte26tq15cgj1';
+  try {
+    const response = await fetch(SHEETDB_ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    });
+    if (response.ok) {
+      document.getElementById('form-status').innerText = 'Message sent!';
+      form.reset();
+    } else {
+      document.getElementById('form-status').innerText = 'Error sending message.';
+    }
+  } catch (err) {
+    document.getElementById('form-status').innerText = 'Network error.';
+  }
+});
+</script>
+  </body>
+</html>
