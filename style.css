@@ -12,6 +12,11 @@
     max-width: 100%;
     overflow-x: hidden;
   }
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
   body {
     background: #080808;
     color: #fff;
@@ -19,7 +24,8 @@
   }
   #header {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     background-image: url(/images/b8e4f851-9985-49d6-a562-830c102a9fc2.png);
     background-size: cover;
     background-position: center;
@@ -90,6 +96,79 @@
   }
   .header-text h1 span {
     color: #ff004f;
+  }
+  
+  /* -------------- Responsive (Large Tablets/Laptops) -------------- */
+  @media only screen and (max-width: 1200px) {
+    .avatar, .logo {
+      width: 300px;
+    }
+    nav ul li {
+      margin: 8px 12px;
+    }
+    nav ul li a {
+      font-size: 16px;
+    }
+    .header-text {
+      margin-top: 16%;
+      font-size: 24px;
+    }
+    .header-text h1 {
+      font-size: 48px;
+    }
+    .sub-title {
+      font-size: 48px;
+    }
+    .brand {
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+  }
+  
+  /* -------------- Responsive (Tablets) -------------- */
+  @media only screen and (max-width: 992px) {
+    .avatar, .logo {
+      width: 220px;
+    }
+    nav {
+      align-items: center;
+    }
+    .header-text {
+      margin-top: 24%;
+      font-size: 18px;
+    }
+    .header-text h1 {
+      font-size: 36px;
+    }
+    .sub-title {
+      font-size: 36px;
+    }
+    /* Use mobile drawer nav earlier to avoid overlap on zoom */
+    nav .fa-solid {
+      display: block;
+      font-size: 24px;
+    }
+    nav ul {
+      background: #ff004f;
+      position: fixed;
+      top: 0;
+      right: -220px;
+      width: 220px;
+      height: 100vh;
+      padding-top: 50px;
+      z-index: 2;
+      transition: right 0.5s;
+    }
+    nav ul li {
+      display: block;
+      margin: 20px;
+    }
+    nav ul .fa-solid {
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      cursor: pointer;
+    }
   }
   
   /* -----------------About----------------- */
@@ -366,12 +445,42 @@
     display: none;
   }
   @media only screen and (max-width: 600px) {
+    .container { padding-left: 16px; padding-right: 16px; }
+    /* Mobile nav: hide inline links, use drawer */
+    nav ul { display: none; }
+    #sidemenu {
+      display: block;
+      background: #ff004f;
+      position: fixed;
+      top: 0;
+      right: -200px;
+      width: 200px;
+      height: 100vh;
+      padding-top: 50px;
+      z-index: 1000;
+      transition: right 0.5s;
+    }
+    #sidemenu li { display: block; margin: 20px; }
+    #sidemenu .fa-solid { position: absolute; top: 25px; left: 25px; cursor: pointer; }
+    nav .menu-toggle { margin-left: auto; }
+    #header .container {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .brand {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .avatar, .logo {
+      width: 160px;
+    }
     .header-text {
-      margin-top: 40%;
-      font-size: 14px;
+      margin-top: 18%;
+      font-size: 13px;
     }
     .header-text h1 {
-      font-size: 24px;
+      font-size: 22px;
     }
     nav .fa-solid {
       display: block;
@@ -399,7 +508,7 @@
       cursor: pointer;
     }
     .sub-title {
-      font-size: 24px;
+      font-size: 22px;
     }
     .about-col-1,
     .about-col-2,
@@ -411,14 +520,17 @@
       flex-direction: column;
     }
     .about-col-1 {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
     }
+    .about-col-1 img { width: 80%; }
     .about-col-2 {
-      font-size: 14px;
+      font-size: 13px;
     }
     .tab-links {
-      font-size: 16px;
-      margin-right: 20px;
+      font-size: 14px;
+      margin-right: 16px;
     }
     .services-list,
     .work-list {
@@ -426,7 +538,7 @@
       gap: 20px;
     }
     .contact-left p {
-      font-size: 16px;
+      font-size: 14px;
       display: flex;
       align-items: flex-start;
     }
@@ -437,6 +549,15 @@
     section {
       padding: 20px 10px;
     }
+    /* Give a bit more space before About to avoid collision on zoom */
+    #about { padding-top: 40px; }
+  }
+  
+  /* Very small phones */
+  @media only screen and (max-width: 360px) {
+    .avatar, .logo { width: 140px; }
+    .header-text { margin-top: 20%; font-size: 12px; }
+    .header-text h1 { font-size: 20px; }
   }
   
   .brand {
