@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #080808;
+  --color-surface: #0f0f0f;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-text-primary: #f0f0f0;
+  --color-text-secondary: #7a7a7a;
+  --color-accent: #e8d5b7;
+  --color-accent-muted: rgba(232, 213, 183, 0.12);
+  
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-text-primary font-body antialiased selection:bg-accent/30 selection:text-white;
+    background-color: var(--color-bg);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/10 rounded-full hover:bg-accent/40 transition-colors;
+}
+
+/* Utilities */
+@layer utilities {
+  .glass-panel {
+    @apply bg-surface/50 backdrop-blur-md border border-white/5;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-br from-white to-white/40;
+  }
+}
