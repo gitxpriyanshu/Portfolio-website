@@ -5,7 +5,7 @@ import { ArrowLeft, ExternalLink, Github } from 'lucide-react';
 import { PROJECTS } from '@/data/projects';
 import { Badge } from '@/components/ui/Badge';
 import Button from '@/components/ui/Button';
-import { Divider } from '@/components/ui/Divider';
+
 import { GlassCard } from '@/components/ui/GlassCard';
 
 /**
@@ -135,7 +135,7 @@ export const ProjectDetail = () => {
               </div>
             </div>
 
-            <Divider className="my-8" />
+            <div className="my-8 h-px w-full bg-white/5" />
 
             <div>
               <h4 className="text-text-primary font-display text-xl mb-4">Project Meta</h4>
