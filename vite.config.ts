@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import { visualizer } from 'rollup-plugin-visualizer';
+
 import viteImagemin from 'vite-plugin-imagemin';
 
 /**
@@ -23,8 +23,6 @@ export default defineConfig(({ mode }) => ({
         plugins: [{ name: 'removeViewBox' }, { name: 'removeEmptyAttrs', active: false }],
       },
     }),
-    // Bundle analyzer: Run 'npm run analyze' to see bundle composition
-    mode === 'analyze' ? visualizer({ open: true, filename: 'stats.html', gzipSize: true }) : null,
   ],
   resolve: {
     alias: {
