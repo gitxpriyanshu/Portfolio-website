@@ -11,7 +11,7 @@ export const PROJECTS: Project[] = [
     category: 'web',
     liveUrl: '#',
     githubUrl: 'https://github.com/gitxpriyanshu',
-    imageUrl: '/assets/images/projects/pong.jpg', // Placeholder, user can update
+    imageUrl: '/assets/images/projects/plinko.png', // Placeholder, user can update
     featured: true,
     year: 2026,
     status: 'live',
@@ -33,7 +33,7 @@ export const PROJECTS: Project[] = [
     category: 'web',
     liveUrl: '#',
     githubUrl: 'https://github.com/gitxpriyanshu',
-    imageUrl: '/assets/images/projects/yt-hub.jpg', // Placeholder
+    imageUrl: '/assets/images/projects/Knowledge-base.png', // Placeholder
     featured: true,
     year: 2026,
     status: 'live',
@@ -55,7 +55,7 @@ export const PROJECTS: Project[] = [
     category: 'ai',
     liveUrl: '#',
     githubUrl: 'https://github.com/gitxpriyanshu',
-    imageUrl: '/assets/images/projects/yt-hub.jpg', // Placeholder
+    imageUrl: '/assets/images/projects/code_debug.jpg', // Placeholder
     featured: true,
     year: 2026,
     status: 'live',
@@ -99,7 +99,7 @@ export const PROJECTS: Project[] = [
     category: 'ai',
     liveUrl: '#',
     githubUrl: 'https://github.com/gitxpriyanshu',
-    imageUrl: '/assets/images/projects/yt-hub.jpg', // Placeholder
+    imageUrl: '/assets/images/projects/linera-regression.jpg', // Placeholder
     featured: false,
     year: 2026,
     status: 'live',
@@ -121,7 +121,7 @@ export const PROJECTS: Project[] = [
     category: 'web',
     liveUrl: '#',
     githubUrl: 'https://github.com/gitxpriyanshu',
-    imageUrl: '/assets/images/projects/yt-hub.jpg', // Placeholder
+    imageUrl: '/assets/images/projects/your-split.jpg', // Placeholder
     featured: false,
     year: 2026,
     status: 'live',
@@ -143,7 +143,7 @@ export const PROJECTS: Project[] = [
     category: 'ai',
     liveUrl: '#',
     githubUrl: 'https://github.com/gitxpriyanshu',
-    imageUrl: '/assets/images/projects/yt-hub.jpg', // Placeholder
+    imageUrl: '/assets/images/projects/propwisw_ai.jpg', // Placeholder
     featured: false,
     year: 2026,
     status: 'live',
@@ -165,7 +165,7 @@ export const PROJECTS: Project[] = [
     category: 'web',
     liveUrl: '#',
     githubUrl: 'https://github.com/gitxpriyanshu',
-    imageUrl: '/assets/images/projects/yt-hub.jpg', // Placeholder
+    imageUrl: '/assets/images/projects/trounasphere.jpg', // Placeholder
     featured: false,
     year: 2026,
     status: 'live',
@@ -209,7 +209,7 @@ export const PROJECTS: Project[] = [
     category: 'web',
     liveUrl: '#',
     githubUrl: 'https://github.com/gitxpriyanshu',
-    imageUrl: '/assets/images/projects/yt-hub.jpg', // Placeholder
+    imageUrl: '/assets/images/projects/volunteer-connect.jpg', // Placeholder
     featured: false,
     year: 2025,
     status: 'live',
