@@ -57,7 +57,7 @@ export const About = () => {
               {/* Main Photo Container */}
               <div className="relative h-[500px] rounded-2xl overflow-hidden group transition-all duration-700 bg-background border border-white/5 shadow-2xl">
                 <img 
-                  src="/assets/images/profile.png" 
+                  src="/assets/images/profile_bw.png" 
                   alt="Priyanshu Verma"
                   className="w-full h-full object-contain object-center scale-110 group-hover:scale-100 transition-transform duration-700"
                 />
