@@ -11,7 +11,7 @@ export const PROJECTS: Project[] = [
     category: 'web',
     liveUrl: '#',
     githubUrl: 'https://github.com/gitxpriyanshu',
-    imageUrl: '/assets/images/projects/yt-hub.jpg', // Placeholder
+    imageUrl: '/assets/images/projects/apz-ai.jpg', // Placeholder
     featured: true,
     year: 2025,
     status: 'live',
@@ -187,7 +187,7 @@ export const PROJECTS: Project[] = [
     category: 'web',
     liveUrl: '#',
     githubUrl: 'https://github.com/gitxpriyanshu',
-    imageUrl: '/assets/images/projects/plinko.png', // Placeholder, user can update
+    imageUrl: '/assets/images/projects/plinko.jpg', // Placeholder, user can update
     featured: false,
     year: 2026,
     status: 'live',
