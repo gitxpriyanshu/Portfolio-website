@@ -33,7 +33,7 @@ export const PROJECTS: Project[] = [
     category: 'web',
     liveUrl: '#',
     githubUrl: 'https://github.com/gitxpriyanshu',
-    imageUrl: '/assets/images/projects/Knowledge-base.png', // Placeholder
+    imageUrl: '/assets/images/projects/knowlwdge-base-graph.jpg', // Placeholder
     featured: true,
     year: 2026,
     status: 'live',
@@ -77,7 +77,7 @@ export const PROJECTS: Project[] = [
     category: 'web',
     liveUrl: '#',
     githubUrl: 'https://github.com/gitxpriyanshu',
-    imageUrl: '/assets/images/projects/yt-hub.jpg', // Placeholder
+    imageUrl: '/assets/images/projects/api-monetorin.jpg', // Placeholder
     featured: false,
     year: 2026,
     status: 'live',
