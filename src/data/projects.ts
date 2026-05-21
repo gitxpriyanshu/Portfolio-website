@@ -2,26 +2,26 @@ import { Project } from '../types';
 
 export const PROJECTS: Project[] = [
   {
-    id: 'plinko',
-    title: 'Plinko: Provably Fair Gaming',
-    tagline: 'A deterministic gaming engine ensuring transparency through cryptographic verification.',
-    description: 'Built a provably fair Plinko simulation with a commit-reveal protocol and real-time trajectory replay.',
-    longDescription: 'Developed to address the need for transparency in digital gaming, this system uses SHA256 fairness and Xorshift PRNG to ensure every outcome is mathematically verifiable. The engine features real-time simulation and an interactive proof verification system for end-users.',
-    techStack: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Tailwind CSS', 'Framer Motion', 'Web Crypto'],
+    id: 'alphapowerzone',
+    title: 'AlphaPowerZone - APZ',
+    tagline: 'Full-stack e-commerce app for fitness equipment with advanced admin controls.',
+    description: 'E-commerce platform featuring cart management, CRUD operations, and Cloudinary integration.',
+    longDescription: 'Built a comprehensive e-commerce ecosystem for fitness products. Features a robust admin dashboard for inventory management, secure JWT authentication, and seamless media uploads via Cloudinary.',
+    techStack: ['React', 'Vite', 'Tailwind CSS', 'Node.js', 'Express.js', 'Prisma', 'SQL', 'JWT'],
     category: 'web',
     liveUrl: '#',
     githubUrl: 'https://github.com/gitxpriyanshu',
-    imageUrl: '/assets/images/projects/plinko.png', // Placeholder, user can update
+    imageUrl: '/assets/images/projects/yt-hub.jpg', // Placeholder
     featured: true,
-    year: 2026,
+    year: 2025,
     status: 'live',
     highlights: [
-      'Implemented SHA256 fairness and Xorshift PRNG for verifiable randomness.',
-      'Built a deterministic Plinko simulation engine with commit-reveal protocol.',
-      'Developed real-time trajectory replay and proof verification system.',
-      'Engineered with a focus on high-performance cryptographic verification.'
+      'Built a full-featured cart and checkout system with inventory sync.',
+      'Developed an admin dashboard for real-time product management.',
+      'Integrated Cloudinary for optimized media handling and uploads.',
+      'Implemented secure JWT-based sessions and RESTful API architecture.'
     ],
-    color: '#FF6B6B'
+    color: '#EC4899'
   },
   {
     id: 'knowledge-base-graph',
@@ -178,26 +178,26 @@ export const PROJECTS: Project[] = [
     color: '#8B5CF6'
   },
   {
-    id: 'alphapowerzone',
-    title: 'AlphaPowerZone - APZ',
-    tagline: 'Full-stack e-commerce app for fitness equipment with advanced admin controls.',
-    description: 'E-commerce platform featuring cart management, CRUD operations, and Cloudinary integration.',
-    longDescription: 'Built a comprehensive e-commerce ecosystem for fitness products. Features a robust admin dashboard for inventory management, secure JWT authentication, and seamless media uploads via Cloudinary.',
-    techStack: ['React', 'Vite', 'Tailwind CSS', 'Node.js', 'Express.js', 'Prisma', 'SQL', 'JWT'],
+    id: 'plinko',
+    title: 'Plinko: Provably Fair Gaming',
+    tagline: 'A deterministic gaming engine ensuring transparency through cryptographic verification.',
+    description: 'Built a provably fair Plinko simulation with a commit-reveal protocol and real-time trajectory replay.',
+    longDescription: 'Developed to address the need for transparency in digital gaming, this system uses SHA256 fairness and Xorshift PRNG to ensure every outcome is mathematically verifiable. The engine features real-time simulation and an interactive proof verification system for end-users.',
+    techStack: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Tailwind CSS', 'Framer Motion', 'Web Crypto'],
     category: 'web',
     liveUrl: '#',
     githubUrl: 'https://github.com/gitxpriyanshu',
-    imageUrl: '/assets/images/projects/yt-hub.jpg', // Placeholder
+    imageUrl: '/assets/images/projects/plinko.png', // Placeholder, user can update
     featured: false,
-    year: 2025,
+    year: 2026,
     status: 'live',
     highlights: [
-      'Built a full-featured cart and checkout system with inventory sync.',
-      'Developed an admin dashboard for real-time product management.',
-      'Integrated Cloudinary for optimized media handling and uploads.',
-      'Implemented secure JWT-based sessions and RESTful API architecture.'
+      'Implemented SHA256 fairness and Xorshift PRNG for verifiable randomness.',
+      'Built a deterministic Plinko simulation engine with commit-reveal protocol.',
+      'Developed real-time trajectory replay and proof verification system.',
+      'Engineered with a focus on high-performance cryptographic verification.'
     ],
-    color: '#EC4899'
+    color: '#FF6B6B'
   },
   {
     id: 'volunteer-connect',
@@ -231,7 +231,7 @@ export const PROJECTS: Project[] = [
     category: 'web',
     liveUrl: '#',
     githubUrl: 'https://github.com/gitxpriyanshu',
-    imageUrl: '/assets/images/projects/yt-hub.jpg', // Placeholder
+    imageUrl: '/assets/images/projects/mindsparks.jpg', // Placeholder
     featured: false,
     year: 2025,
     status: 'live',
