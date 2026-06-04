@@ -7,19 +7,18 @@ export const PROJECTS: Project[] = [
     tagline: 'Full-stack e-commerce app for fitness equipment with advanced admin controls.',
     description: 'E-commerce platform featuring cart management, CRUD operations, and Cloudinary integration.',
     longDescription: 'Built a comprehensive e-commerce ecosystem for fitness products. Features a robust admin dashboard for inventory management, secure JWT authentication, and seamless media uploads via Cloudinary.',
-    techStack: ['React', 'Vite', 'Tailwind CSS', 'Node.js', 'Express.js', 'Prisma', 'SQL', 'JWT'],
+    techStack: ['React', 'Vite', 'Tailwind CSS', 'Node.js', 'Express.js', 'Prisma', 'PostgreSQL', 'FastAPI', 'Groq'],
     category: 'web',
-    liveUrl: '#',
-    githubUrl: 'https://github.com/gitxpriyanshu',
+    liveUrl: 'https://alpha-power-zone-apz.vercel.app',
+    githubUrl: 'https://github.com/gitxpriyanshu/AlphaPowerZone---APZ',
     imageUrl: '/assets/images/projects/apz-ai.jpg', // Placeholder
     featured: true,
     year: 2025,
     status: 'live',
     highlights: [
-      'Built a full-featured cart and checkout system with inventory sync.',
-      'Developed an admin dashboard for real-time product management.',
-      'Integrated Cloudinary for optimized media handling and uploads.',
-      'Implemented secure JWT-based sessions and RESTful API architecture.'
+      'Identified limitations in fitness e-commerce platforms lacking AI personalization, secure payments, scalability.',
+      'Built a full-stack AI fitness e-commerce platform integrating storefront, admin dashboard, AI service.',
+      'Implemented product management, Razorpay payments, JWT auth, analytics, and AI recommendations.'
     ],
     color: '#EC4899'
   },
@@ -31,8 +30,8 @@ export const PROJECTS: Project[] = [
     longDescription: 'Identified limitations in traditional knowledge mapping tools and built a scalable platform using Cytoscape.js. It features robust state management with Zustand, real-time sync, and a radar/minimap for navigating large datasets.',
     techStack: ['Next.js', 'TypeScript', 'Cytoscape.js', 'Zustand', 'Tailwind CSS', 'Framer Motion', 'Dagre'],
     category: 'web',
-    liveUrl: '#',
-    githubUrl: 'https://github.com/gitxpriyanshu',
+    liveUrl: 'https://knowledge-base-graph-mocha.vercel.app/',
+    githubUrl: 'https://github.com/gitxpriyanshu/Knowledge-Base-Graph',
     imageUrl: '/assets/images/projects/knowlwdge-base-graph.jpg', // Placeholder
     featured: true,
     year: 2026,
@@ -47,23 +46,22 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'code-debugging-assistant',
-    title: 'AI Code Debugging Assistant',
+    title: 'Code Debugging Assistant',
     tagline: 'RAG-powered AI assistant for detecting and fixing code errors with high accuracy.',
     description: 'A low-latency AI tool built with LangChain and Groq to detect, explain, and fix bugs instantly.',
     longDescription: 'Engineered a RAG-powered assistant to overcome the context-awareness limitations of traditional debugging tools. Using FastAPI and FAISS for vector storage, the system provides one-click fixes and optimized error classification with high confidence scoring.',
-    techStack: ['FastAPI', 'React', 'LangChain', 'Groq (LLaMA-3)', 'FAISS', 'Tailwind CSS', 'Python'],
+    techStack: ['FastAPI', 'React', 'LangChain', 'Groq (LLaMA-3)', 'FAISS (Vector DB)', 'Tailwind CSS', 'Python'],
     category: 'ai',
-    liveUrl: '#',
-    githubUrl: 'https://github.com/gitxpriyanshu',
+    liveUrl: 'https://code-assistant-gold.vercel.app/',
+    githubUrl: 'https://github.com/gitxpriyanshu/code_assistant',
     imageUrl: '/assets/images/projects/code_debug.jpg', // Placeholder
     featured: true,
     year: 2026,
     status: 'live',
     highlights: [
-      'Implemented RAG logic for high-accuracy error detection and fixes.',
-      'Optimized for low-latency using LLaMA-3 and Groq inference.',
-      'Developed one-click fix integration and error classification logic.',
-      'Built with FAISS vector database for efficient context retrieval.'
+      'Identified limitations in traditional LLM debugging tools lacking accuracy, context-awareness, and low-latency.',
+      'Built a RAG-powered AI debugging assistant to detect, explain, and fix code errors with high accuracy and speed.',
+      'Implemented error classification, confidence scoring, one-click fixes, optimization, caching, and deduplication.'
     ],
     color: '#A78BFA'
   },
@@ -75,9 +73,9 @@ export const PROJECTS: Project[] = [
     longDescription: 'Designed a high-performance observability platform featuring API key authentication, async tracking, and rate limiting. The system uses a microservices architecture with RabbitMQ for message queuing and WebSocket dashboards for zero-latency logging.',
     techStack: ['React', 'Node.js', 'Express.js', 'PostgreSQL', 'MongoDB', 'RabbitMQ', 'WebSockets'],
     category: 'web',
-    liveUrl: '#',
-    githubUrl: 'https://github.com/gitxpriyanshu',
-    imageUrl: '/assets/images/projects/api-monetorin.jpg', // Placeholder
+    liveUrl: 'https://client-orcin-pi.vercel.app',
+    githubUrl: 'https://github.com/gitxpriyanshu/API-Monitoring-System',
+    imageUrl: '/assets/images/projects/api-monitor.jpg', // Placeholder
     featured: false,
     year: 2026,
     status: 'live',
@@ -97,8 +95,8 @@ export const PROJECTS: Project[] = [
     longDescription: 'Created to simplify the understanding of fundamental ML concepts like residuals and gradient descent. Built using Streamlit and Plotly, it provides real-time simulations and interactive loss landscape plots for parameter optimization.',
     techStack: ['Python', 'Streamlit', 'NumPy', 'Plotly'],
     category: 'ai',
-    liveUrl: '#',
-    githubUrl: 'https://github.com/gitxpriyanshu',
+    liveUrl: 'https://linear-regression-visualizer013.streamlit.app/',
+    githubUrl: 'https://github.com/gitxpriyanshu/Linear-Regression-Visualizer',
     imageUrl: '/assets/images/projects/linera-regression.jpg', // Placeholder
     featured: false,
     year: 2026,
@@ -119,8 +117,8 @@ export const PROJECTS: Project[] = [
     longDescription: 'Identified inefficiencies in traditional expense splitting systems and built a solution that uses graph algorithms to minimize debt chains. Built with Prisma and PostgreSQL for high reliability and consistent REST API performance.',
     techStack: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Tailwind CSS', 'REST APIs'],
     category: 'web',
-    liveUrl: '#',
-    githubUrl: 'https://github.com/gitxpriyanshu',
+    liveUrl: 'https://your-split.vercel.app/',
+    githubUrl: 'https://github.com/gitxpriyanshu/YourSplit',
     imageUrl: '/assets/images/projects/your-split.jpg', // Placeholder
     featured: false,
     year: 2026,
@@ -141,8 +139,8 @@ export const PROJECTS: Project[] = [
     longDescription: 'Developed a machine learning model to predict property prices based on multiple real estate factors. Used Random Forest models and Scikit-learn for high-accuracy batch predictions and feature importance analysis.',
     techStack: ['Python', 'pandas', 'NumPy', 'scikit-learn', 'Streamlit', 'matplotlib', 'seaborn'],
     category: 'ai',
-    liveUrl: '#',
-    githubUrl: 'https://github.com/gitxpriyanshu',
+    liveUrl: 'https://propwise-ai-yr2gt82aogfnwzietyshnq.streamlit.app/',
+    githubUrl: 'https://github.com/gitxpriyanshu/PropWise-AI/tree/main',
     imageUrl: '/assets/images/projects/propwisw_ai.jpg', // Placeholder
     featured: false,
     year: 2026,
@@ -163,8 +161,8 @@ export const PROJECTS: Project[] = [
     longDescription: 'Created to solve the lack of scalability and role-based control in tournament management systems. Built with React and FastAPI, featuring a dynamic bracket engine and real-time leaderboards with JWT-based secure authentication.',
     techStack: ['React', 'FastAPI', 'PostgreSQL', 'SQLAlchemy', 'Tailwind CSS', 'Docker', 'JWT'],
     category: 'web',
-    liveUrl: '#',
-    githubUrl: 'https://github.com/gitxpriyanshu',
+    liveUrl: 'https://tournasphere.vercel.app',
+    githubUrl: 'https://github.com/gitxpriyanshu/TournaSphere',
     imageUrl: '/assets/images/projects/trounasphere.jpg', // Placeholder
     featured: false,
     year: 2026,
@@ -185,8 +183,8 @@ export const PROJECTS: Project[] = [
     longDescription: 'Developed to address the need for transparency in digital gaming, this system uses SHA256 fairness and Xorshift PRNG to ensure every outcome is mathematically verifiable. The engine features real-time simulation and an interactive proof verification system for end-users.',
     techStack: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Tailwind CSS', 'Framer Motion', 'Web Crypto'],
     category: 'web',
-    liveUrl: '#',
-    githubUrl: 'https://github.com/gitxpriyanshu',
+    liveUrl: 'https://plinko-flax.vercel.app',
+    githubUrl: 'https://github.com/gitxpriyanshu/Plinko',
     imageUrl: '/assets/images/projects/plinko.jpg', // Placeholder, user can update
     featured: false,
     year: 2026,
@@ -207,17 +205,16 @@ export const PROJECTS: Project[] = [
     longDescription: 'Identified gaps in volunteer tracking and event discovery. Built a platform to bridge these gaps, featuring automated attendance tracking and a data-driven dashboard for organizers using SQLite and Prisma.',
     techStack: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'Prisma ORM', 'SQLite', 'JWT'],
     category: 'web',
-    liveUrl: '#',
-    githubUrl: 'https://github.com/gitxpriyanshu',
+    liveUrl: 'https://volunteer-connect-frontend-orpin.vercel.app/',
+    githubUrl: 'https://github.com/gitxpriyanshu/VolunteerConnect',
     imageUrl: '/assets/images/projects/volunteer-connect.jpg', // Placeholder
     featured: false,
     year: 2025,
     status: 'live',
     highlights: [
-      'Engineered an organizer dashboard with real-time event analytics.',
-      'Implemented automated attendance tracking and signup management.',
-      'Built a responsive UI for seamless event discovery and participation.',
-      'Ensured secure user management with JWT and Prisma ORM.'
+      'Identified gaps in volunteer platforms with inefficient event discovery, tracking and organiser coordination.',
+      'Built a full-stack volunteer platform connecting volunteers and organisations for seamless participation.',
+      'Implemented event CRUD, signup, organiser dashboard, approvals, attendance tracking, analytics.'
     ],
     color: '#F97316'
   },
@@ -229,8 +226,8 @@ export const PROJECTS: Project[] = [
     longDescription: 'Created to solve the problem of idea discovery and lack of guidance for creators. This SPA provides curated project ideas with detailed roadmaps and smart content rendering for maximum clarity.',
     techStack: ['React', 'JavaScript (ES6)', 'HTML', 'CSS'],
     category: 'web',
-    liveUrl: '#',
-    githubUrl: 'https://github.com/gitxpriyanshu',
+    liveUrl: 'https://mindsparks-seven.vercel.app',
+    githubUrl: 'https://github.com/gitxpriyanshu/MindSparks',
     imageUrl: '/assets/images/projects/mindsparks.jpg', // Placeholder
     featured: false,
     year: 2025,
@@ -252,7 +249,7 @@ export const PROJECTS: Project[] = [
     techStack: ['React', 'JavaScript', 'Responsive UI Design', 'Modular CSS'],
     category: 'web',
     liveUrl: 'https://youtube-creator-hub.vercel.app',
-    githubUrl: 'https://github.com/gitxpriyanshu/youtube-creator-hub',
+    githubUrl: 'https://github.com/pranjal-ogg/Youtube-Creator-Hub',
     imageUrl: '/assets/images/projects/yt-hub.jpg',
     featured: false,
     year: 2024,

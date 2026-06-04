@@ -17,7 +17,7 @@ export const EXPERIENCE: Experience[] = [
     organization: 'Newton School of Technology (ADYPU), Pune',
     description: 'Specializing in Artificial Intelligence and Machine Learning with a focus on scalable systems and software engineering.',
     type: 'education',
-    highlight: 'Grade: 7.07/10.0'
+    highlight: 'Grade: 8.2/10.0'
   },
   {
     id: 'aarambh-lead',
@@ -35,7 +35,7 @@ export const EXPERIENCE: Experience[] = [
     organization: 'Noble Public School, Meerut',
     description: 'Higher secondary education with a focus on Science and Mathematics.',
     type: 'education',
-    highlight: 'Grade: 68.6%'
+    highlight: 'Grade: 78.6%'
   },
   {
     id: 'matriculation-edu',
@@ -44,16 +44,16 @@ export const EXPERIENCE: Experience[] = [
     organization: 'Noble Public School, Meerut',
     description: 'Secondary education with focus on foundational sciences and mathematics.',
     type: 'education',
-    highlight: 'Grade: 71.2%'
+    highlight: 'Grade: 77.2%'
   },
   {
     id: 'sports-club-president',
-    date: '2024 – 2025',
-    title: 'President of Sports Club',
-    organization: 'University Level',
-    description: 'Leading a team to organize university-wide sporting events and fostering a culture of teamwork and competition.',
+    date: 'September 2025 – Present',
+    title: 'Sports Club President',
+    organization: 'Newton School of Technology, Pune, Maharashtra',
+    description: 'Led 15+ volunteers for AARAMBH and 4+ events (80+ guests), managing all logistics and operations.',
     type: 'leadership',
-    highlight: 'Managed a team of 20+ members to deliver successful major events.'
+    highlight: 'Managed all logistics and operations.'
   },
   {
     id: 'gsoc-prep',
